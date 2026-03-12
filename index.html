@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyBlock Map Art Commissions | Custom Minecraft Builds</title>
+    <meta name="description" content="Professional SkyBlock map art commissions. Convert your images into custom Minecraft map art with our token-based system.">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<base target="_blank">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-map"></i>
+                SkyBlock Maps
+            </a>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#process">How It Works</a></li>
+                    <li><a href="#sizes">Sizes</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="https://ko-fi.com/niladoze" target="_blank" class="btn-donate">
+                    <i class="fas fa-heart"></i>
+                    Donate
+                </a>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+                <!-- Mobile Menu Overlay - NEW -->
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="mobile-menu-close" onclick="toggleMobileMenu()">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#process" onclick="toggleMobileMenu()">How It Works</a></li>
+                <li><a href="#sizes" onclick="toggleMobileMenu()">Sizes</a></li>
+                <li><a href="#faq" onclick="toggleMobileMenu()">FAQ</a></li>
+                <li><a href="#contact" onclick="toggleMobileMenu()">Contact</a></li>
+            </ul>
+            <a href="https://ko-fi.com/yourusername" target="_blank" class="btn-donate">
+                <i class="fas fa-heart"></i>
+                Donate
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge float-animation">
+                <i class="fas fa-star"></i>
+                Blocks Are Art
+            </div>
+            <h1>SkyBlock Map Art Commissions</h1>
+            <p>Turn your images into custom Minecraft map art. Detailed maps delivered in-game using our simple token system.</p>
+            <div class="hero-buttons">
+                <a href="#process" class="btn btn-primary">
+                    <i class="fas fa-play"></i>
+                    How It Works
+                </a>
+                <a href="#sizes" class="btn btn-secondary">
+                    <i class="fas fa-expand"></i>
+                    View Sizes
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-rocket"></i>
+                    Start Commission
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section - Centered -->
+    <section id="process" class="process">
+        <div class="process-container">
+            <div class="section-header">
+                <h2>How The Commission System Works</h2>
+                <p>Simple 5-step process from purchase to delivery</p>
+            </div>
+            
+            <div class="steps">
+                <!-- First Row: 3 cards -->
+                <div class="steps-row">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Buy a Token</h3>
+                        <p>Visit the SkyBlock shop <code>/pw kma </code>  and purchase a Map Art Commission Token. The token will appear in your inventory once purchased.</p>
+                        <div class="step-details">
+                            <strong>Location:</strong> /pw kma → Commissions
+                        </div>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Contact Me</h3>
+                        <p>Reach out NilaDoze through Discord or in-game messaging. Have your token ready and the image you want converted.</p>
+                        <div class="step-details">
+                            <ul>
+                                <li>In-game: /msg NilaDoze [message]</li>
+                                <li>Discord: Available 24/7</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <h3>Redeem Token</h3>
+                        <p>Trade me the token to activate your commission slot. I'll confirm the details and add you to the queue.</p>
+                        <div class="step-details">
+                            <strong>Required:</strong> Token + Image file
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Row: 2 cards centered -->
+                <div class="steps-row" style="justify-content: center;">
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <div class="step-icon">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                        <h3>Creation</h3>
+                        <p>I build your map art using professional tools and high-quality block palettes optimized for Minecraft maps.</p>
+                        <div class="step-details">
+                            <strong>Tools:</strong> Litematica, Rebane
+                        </div>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">5</div>
+                        <div class="step-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h3>Delivery</h3>
+                        <p>Receive your completed map art in-game. I'll meet you at your island or a designated location to hand over the maps.</p>
+                        <div class="step-details">
+                            <strong>Includes:</strong> All materials & setup
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Sizes Section -->
+    <section id="sizes">
+        <div class="section-header">
+            <h2>Available Map Sizes</h2>
+            <p>Choose the perfect size for your image</p>
+        </div>
+
+        <div class="sizes-grid">
+
+            <div class="sizes-row">
+                <div class="size-card">
+                    <div class="size-visual size-1x1">
+                        <div class="map-grid" style="grid-template-columns: 1fr;">
+                            <div class="map-cell"></div>
+                        </div>
+                    </div>
+                    <h3>Single Map</h3>
+                    <div class="dimensions">1×1 (128×128 blocks)</div>
+                    <p>Perfect for profile pictures, icons, and small logos. Best for simple images with minimal detail.</p>
+                </div>
+
+                <div class="size-card">
+                    <div class="size-visual size-2x2">
+                        <div class="map-grid" style="grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr;">
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                        </div>
+                    </div>
+                    <h3>Medium Canvas</h3>
+                    <div class="dimensions">2×2 (256×256 blocks)</div>
+                    <p>Ideal for medium-sized artwork with more detail. Great for character portraits and scenic views.</p>
+                </div>
+
+                <div class="size-card">
+                    <div class="size-visual size-3x3">
+                        <div class="map-grid" style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr);">
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>               
+                        </div>
+                    </div>
+                    <h3>Large Canvas</h3>
+                    <div class="dimensions">3×3 (384x384 blocks)</div>
+                    <p>Maximum detail for complex images. Perfect for large artwork, posters, and high-detail photography.</p>
+                </div>
+            </div>
+
+            <div class="sizes-row">
+                <div class="size-card">
+                    <div class="size-visual size-2x3">
+                        <div class="map-grid" style="grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr);">
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>        
+                        </div>
+                    </div>
+                    <h3>Portrait</h3>
+                    <div class="dimensions">2×3 (256x384 blocks)</div>
+                    <p>A taller layout for images that are naturally vertical. Perfect for portrait images, banners, vertical illustrations, or in-game posters.</p>
+                </div>
+
+                <div class="size-card">
+                    <div class="size-visual size-3x2">
+                        <div class="map-grid" style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr);">
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>
+                            <div class="map-cell"></div>        
+                        </div>
+                    </div>
+                    <h3>Landscape</h3>
+                    <div class="dimensions">3×2 (384x256 blocks)</div>
+                    <p>A wider layout ideal for landscapes, panoramic scenes, logos, or group portraits. Allows wide designs to fit without being compressed, keeping all key elements visible.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--bg-card); border-radius: 16px; border: 1px solid var(--border); max-width: 1200px; justify-items: center; margin-left: auto; margin-right: auto;">
+            <i class="fas fa-info-circle text-accent" style="font-size: 1.5rem; margin-bottom: 1rem;"></i>
+            <h4 style="margin-bottom: 0.5rem;">Custom Sizes Available</h4>
+            <p style="color: var(--text-secondary);">Need a specific size like 1×2 or 4×4? Contact me for custom dimensions tailored to your project.</p>
+        </div>
+    </section>
+
+    <!-- Good to Know Section -->
+    <section class="info">
+        <div class="section-header">
+            <h2>Good to Know</h2>
+            <p>Important details about the commission process</p>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-cubes"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Materials Included</h4>
+                    <p>All materials are provided at no extra cost, which is reflected in the overall project pricing.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Payment</h4>
+                    <p>Flat rates, per-buy rates, or rank trades are allowed as commission payments.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="info-content">
+                    <h4>One Token Rule</h4>
+                    <p>You will have to wait for your current map to be completed before requesting another.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Image Format</h4>
+                    <p>Any image format accepted (JPG, PNG, etc.). Higher resolution source images produce better results.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-ruler-combined"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Custom Sizes</h4>
+                    <p>Non-standard sizes available upon request. Pricing may vary based on complexity and dimensions.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Quality Guarantee</h4>
+                    <p>Preview provided before final delivery. Minor adjustments included if needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick answers to common questions</p>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Are custom sizes available?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes! While I offer standard sizes, I can create custom dimensions depending on your needs. Contact me to discuss your specific requirements.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Can I contact you anytime?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, you can reach out via Discord or in-game messages at any time. While I may not respond immediately during off-hours, I typically reply within a few hours during my active play times.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Can I pay extra to skip the queue?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>No, the queue remains the same for all players to keep things fair. Paying extra does not move your commission ahead, but it helps support faster processing and maintenance of the service.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Can I have multiple commissions at once?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Only one active commission per player is allowed at a time. Wait on your current map to be finished before redeeming another token.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    How long does it take to complete?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Completion time depends on the map size and current queue. A 1×1 typically takes 1-2 days, a 2×2 takes 4-5 days. I'll provide an estimated timeline when you commission.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    What images work best?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Clear images with good contrast and distinct colors work best. Avoid blurry, dark or low-resolution images. Keep in mind Minecraft's limited color palette—images with fewer gradients typically convert better.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Ready to Start?</h2>
+            <p>Get in touch to begin your commission</p>
+        </div>
+
+        <div class="contact-methods">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-discord"></i>
+                </div>
+                <h3>Discord</h3>
+                <p>Fastest response time &<br>available 24/7</p>
+                <div class="copy-field" onclick="copyToClipboard(this, 'NilaDoze#2910')">
+                    <span>NilaDoze#2910</span>
+                    <i class="fas fa-copy"></i>
+                    <div class="copy-tooltip">Copied!</div>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>In-Game</h3>
+                <p>Message me directly on<br>the SkyBlock server</p>
+                <div class="copy-field" onclick="copyToClipboard(this, 'NilaDoze')">
+                    <span>/msg NilaDoze</span>
+                    <i class="fas fa-copy"></i>
+                    <div class="copy-tooltip">Copied!</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 4rem; padding: 2rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1)); border-radius: 20px; border: 1px solid rgba(99, 102, 241, 0.2);max-width: 1200px; justify-items: center; margin-left: auto; margin-right: auto;">
+            <h3 style="margin-bottom: 1rem; color: var(--accent);">
+                <i class="fas fa-heart"></i>
+                 ‎‎ Do you like my work?
+            </h3>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
+                If you like my work and want to support future projects, donations are greatly appreciated! Every contribution helps me keep creating high-quality map art.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-map"></i>
+                SkyBlock Maps
+            </div>
+            <p style="margin-bottom: 1.5rem;">Professional Minecraft map art commissions for SkyBlock servers</p>
+            <ul class="footer-links">
+                <li><a href="#process">How It Works</a></li>
+                <li><a href="#sizes">Sizes</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p style="font-size: 0.875rem; opacity: 0.6;">
+                © 2026 SkyBlock Map Art Commissions. 
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
