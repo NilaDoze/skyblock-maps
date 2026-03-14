@@ -14,6 +14,7 @@ const activeQueue = [
     // Remove the examples below and add your own:
     { name: "Jabe", size: "2x3", status: "Building 16%" },
     { name: "Lexii", size: "5x4", status: "Building" },
+    { name: "Sodium", size: "2x3", status: "Pending" },
 ];
 
 // Recently completed commissions
